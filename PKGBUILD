@@ -1,5 +1,5 @@
 # Maintainer: IGN-STYLY on github.com <suporte.lazar@gmail.com>
-pkgname=Lotus
+pkgname=lotus
 pkgver=0.1
 pkgrel=1
 pkgdesc="BETA"
@@ -24,6 +24,7 @@ package() {
 	cp ./build/bin/lotus $pkgdir/usr/bin/lotus
 	
 }
+sha256sums=('SKIP')
 sha256sums=('SKIP')
 sha256sums=('SKIP')
 sha256sums=('SKIP')
