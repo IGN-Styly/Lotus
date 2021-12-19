@@ -12,26 +12,38 @@ checkdepends=()
 provides=(lotus)
 source=("git+$url")
 install=
-md5sums('SKIP')
 noextract=()
 
-prepare() {
-	cd "$pkgname-$pkgver"
-	patch -p1 -i "$srcdir/$pkgname-$pkgver.patch"
-}
 
 build() {
-	cd "$pkgname-$pkgver"
-	./configure --prefix=/usr
-	make
-}
-
-check() {
-	cd "$pkgname-$pkgver"
-	make -k check
+	./Lotus/make.sh
 }
 
 package() {
-	cd "$pkgname-$pkgver"
-	make DESTDIR="$pkgdir/" install
+	mkdir -p $pkgdir/usr/bin/
+	cp ./Lotus/build/bin/lotus $pkgdir/usr/bin/lotus
+	
 }
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
+sha256sums=('SKIP')
