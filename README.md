@@ -1,2 +1,2 @@
 # Lotus
-This is project Lotus, an os i develop on my free time.
+This is project Lotus an messaging app over tor.

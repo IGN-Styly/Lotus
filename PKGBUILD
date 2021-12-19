@@ -3,26 +3,17 @@ pkgname=Lotus
 pkgver=0.1
 pkgrel=1
 pkgdesc="BETA"
-arch=()
+arch=(x86_64)
 url="https://github.com/IGN-Styly/Lotus"
 license=('MIT')
-groups=()
 depends=()
 makedepends=()
 checkdepends=()
-optdepends=()
-provides=()
-conflicts=()
-replaces=()
-backup=()
-options=()
+provides=(lotus)
+source=("git+$url")
 install=
-changelog=
-source=("$pkgname-$pkgver.tar.gz"
-        "$pkgname-$pkgver.patch")
+md5sums('SKIP')
 noextract=()
-md5sums=()
-validpgpkeys=()
 
 prepare() {
 	cd "$pkgname-$pkgver"
