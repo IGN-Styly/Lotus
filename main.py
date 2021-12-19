@@ -1,7 +1,7 @@
 import socket
 import socks
 
-HEADER=2048
+HEADER=64
 PORT = 5050
 IP = '127.0.1'
 ADDR = (IP, PORT)
