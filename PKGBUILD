@@ -21,7 +21,7 @@ build() {
 
 package() {
 	mkdir -p $pkgdir/usr/bin/
-	cp ./build/bin/lotus $pkgdir/usr/bin/lotus
+	cp ./build/bin/app $pkgdir/usr/bin/lotus
 	
 }
 sha256sums=('SKIP')
