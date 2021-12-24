@@ -1,10 +1,10 @@
 # Maintainer: IGN-STYLY on github.com <suporte.lazar@gmail.com>
-pkgname=lotus
+pkgname= pkg-replace
 pkgver=0.1
 pkgrel=1
-pkgdesc="A easy to use arch package template."
+pkgdesc="BETA"
 arch=(x86_64)
-url="https://github.com/IGN-Styly/Lotus"
+url="url-replace"
 license=('MIT')
 depends=()
 makedepends=()
@@ -21,7 +21,7 @@ build() {
 
 package() {
 	mkdir -p $pkgdir/usr/bin/
-	cp ./build/bin/$pkgname $pkgdir/usr/bin/$pkgname
+	cp ./build/bin/$pkgname $pkgdir/usr/bin/lotus
 	
 }
 sha256sums=('SKIP')
