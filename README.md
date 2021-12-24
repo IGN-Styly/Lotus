@@ -1,2 +1,2 @@
 # Lotus
-This is project Lotus an messaging app over tor.
+Lotus is my go preset for arch package development.
